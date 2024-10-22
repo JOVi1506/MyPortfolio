@@ -604,10 +604,11 @@ xclip
 }
 
 .sim-btn {
+    background-color: #333333;
     line-height: 50px;
     height: 50px;
     text-align: center;
-    margin-right: auto;
+    margin-right: 30px;
     margin-left: auto;
     margin-top: 0px;
     cursor: pointer;
@@ -637,8 +638,8 @@ xclip
 }
 
 .btn-hover-new:hover {
-    color: #ffffff;
-    background-color: #333333;
+    color: #333333;
+    background-color: #ffffff;
 }
 
 .btn-hover-new:hover>span {
