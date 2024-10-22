@@ -59,7 +59,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <img class="img-fluid" src="icloud/Favicon_v22.10.2024.00.15.png" alt="" />
+                <img class="img-fluid" src="icloud/Favicon_v22.10.2024.14.30.png" alt="" />
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -91,13 +91,11 @@
         </div>
     </nav>
 
-    <section id="home" class="main-banner parallaxie" style="background: url('icloud/spoon_3.png')">
+    <section id="home" class="main-banner rellax" data-rellax-speed="-2" style="background: url('icloud/spoon_5.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: scroll;"> 
         <div class="heading solid-white-B">
             <x>Hello, I'm</x>
             <y>Johan Kabir</y>
-
             <z class="cd-headline clip is-full-width">
-                <!-- <span></span> -->
                 <span class="cd-words-wrapper">
                     <b class="is-visible">Web Developer</b>
                     <b>Software Developer</b>
@@ -108,9 +106,10 @@
             </z>
         </div>
     </section>
-    <p> </p>
-    <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 85 100" preserveAspectRatio="none">
+    <!-- <p> </p> -->
+
+    <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="213"
+        viewBox="0 0 85 100" preserveAspectRatio="none" style="z-index: 2; position: relative;">
         <path d="M-5 100 Q 0 20 5 100 Z
             M0 100 Q 5 0 10 100
             M5 100 Q 10 30 15 100
@@ -208,32 +207,31 @@
                         <div class="testimonial clearfix">
                             <div class="desc solid-white-B">
                                 <t> BSc. Computer Science | BRAC UNIVERSITY</t>
-                                <r class="lead">CGPA: 3.40/4.00</r>
-                                <b>2020-2024</b>
+                                <r>CGPA: 3.40/4.00</r>
+                                <k>2020-2024</k>
                             </div>
                             <div class="testi-meta">
                                 <img src="" alt="" class="img-fluid alignleft">
                                 <h4><small></small></h4>
                             </div>
                         </div>
-                        <!-- end testimonial -->
 
                         <div class="testimonial clearfix">
                             <div class="desc solid-white-B">
                                 <t> High School | SUNNYDALE SCHOOL</t>
-                                <r class="lead">O Levels & A Levels (Cambridge)</r>
-                                <b>2006-2019</b>
+                                <r>O Levels & A Levels (Cambridge)</r>
+                                <k>2006-2019</k>
                             </div>
                             <div class="testi-meta">
                                 <img src="" alt="" class="img-fluid alignleft">
                                 <h4><small></small></h4>
                             </div>
                         </div>
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="y" class="section wb">
         <div class="container">
@@ -301,7 +299,7 @@
                 <div class="col-12">
                     <div class="post-box d-flex align-items-start">
                         <div class="post-thumb flex-shrink-0">
-                            <img src="project_tn/CSE400.webp" class="img-fluid" alt="post-img"
+                            <img src="project_tn/CSE400_phtshp_v22.10.2024.16.02.png" class="img-fluid" alt="post-img"
                                 style="width: 250px; height: auto;" />
                         </div>
                         <div class="post-info pl-3 black-font">
@@ -412,11 +410,9 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script> -->
     <script src="js/carousel_J.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script>var rellax = new Rellax('.rellax');</script>
 
 
 </body>

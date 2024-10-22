@@ -15,7 +15,7 @@
 @import url(css/animate.css);
 @import url(css/camera.css);
 @import url(css/flaticon.css);
-@import url(css/prettyPhoto.css);
+@import url(css/prettyPFto.css);
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
 
@@ -2803,7 +2803,7 @@ select.mobile-device {
     margin-bottom: 5px;
     margin-bottom: 0px;
     font-size: 40px;
-    text-align: justify;
+    text-align: left;
     font-weight: 470;
 }
 
@@ -2816,6 +2816,7 @@ select.mobile-device {
     font-weight: 470;
 }
 
+.k
 .g
 .o
 .e
@@ -2826,12 +2827,26 @@ select.mobile-device {
 .x
 .y
 .z{
-    font-family: "Nunito Sans", sans-serif;; 
+    font-family: "Nunito Sans", sans-serif; 
+}
+
+.solid-white-B{
+    font-family: "Nunito Sans", sans-serif; 
+}
+.solid-white-B k {
+    color: #ffffff; /* White color */
+    font-size: 14px; /* Make the font solid and bold */
+    font-style: bold;
+    display: block;
+    font-weight: 700;
 }
 
 .solid-white-B r{
-    color: #899192;
-    font-weight: 450;
+    color: #959999;
+    font-style: bold;
+    font-weight: 700;
+    display: block;
+    font-size: 16px;
 }
 
 
@@ -2842,8 +2857,8 @@ select.mobile-device {
     display: block;
     font-weight: 550;
 }
+
 .solid-white-B x {
-    
     color: #ffffff; /* White color */
     font-size: 22px; /* Make the font solid and bold */
     font-style: bold;
